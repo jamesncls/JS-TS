@@ -1,0 +1,11 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: 
+- viewport serve para tornar a página compatível para acessar em dispositivo móvel.
+
+<span></span>: o estilo dessa tag é "in-line", pois ela tem um estilo que apenas 
+é aplicado no texto presente dentro da tag, ou seja, ele não atrapalha outras coisa que estão ao lado.
+
+<br>: tag para realizar uma quebra de linha.
+
+<h1></h1>: Criar um titulo visível na página com um tamanho maior.
+
+<p></p>: criar um parágrafo.

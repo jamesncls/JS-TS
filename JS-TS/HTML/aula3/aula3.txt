@@ -1,0 +1,32 @@
+- Dentro das tags html nós podemos adicionar atributos de seletor "id", que servem de identificador 
+para as tags, por exemplo <h1 id="cabecalho-um"></h1> e criar outra tag igual com um identificador diferente 
+<h1 id="cabecalho-dois"></h1>
+
+seletores identificadores: são atributos que precisam de um valor, 
+que devem estar de aspas duplas (<h1 id="identificador"></h1>).
+
+
+- Dentro das tags também podemos temos atributos de seletor "classes", que também são identificadores 
+de elementos, só que diferente do id, as classes podem se repetir, logo nós podemos ter 10 elementos 
+com as mesma classe, ou até mesmo um elemento com mais de uma classe.
+
+seletores por classes: assim com identificadores, as classes precisam de um valor,
+que devem estar Dentro de aspas duplas (<h1 id="identificador" class="fundo-vermelho"></h1>).
+se nós quisermos que mas de um parágrafo tenha o fundo vermelho, nós podemos inserir a mesma classe
+nos dois parágrafos.
+
+
+Essas tags nós iremos utilizar para adicionar características de estilo no arquivo css.
+
+Mas por enquanto nós podemos incluir características de estilo (css) no código html 
+utilizando a tag "<style></style>".
+
+- Se quisermos que todos os cabeçalhos com a tag h1 tenha o fundo vermelho, basta escrevermos h1{}, 
+que dessa forma nós selecionamos por nome de tag, e depois para deixarmos todos os texto com fundo vermelho
+nós inserimos a regra css "background: red;"
+
+- Se quisermos adicionar uma característica do seletor id, nós devemos escrever #nome_id {}.
+
+- Se quisermos adicionar uma característica do seletor classe, nós devemos escrever .nome_classe {}.
+
+- tag <b></b> serve para deixar um texto em negrito.

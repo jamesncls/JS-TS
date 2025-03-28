@@ -1,0 +1,32 @@
+ As tags HTML são usadas para definir diferentes tipos de conteúdo 
+e elementos em uma página web, como títulos, parágrafos, links, imagens, listas, etc.
+Cada tag HTML é composta por um nome de tag entre colchetes angulares (< e >). 
+A maioria das tags HTML vem em pares: uma tag de abertura e uma tag de fechamento. 
+A tag de abertura indica o início de um elemento, enquanto a tag de fechamento 
+indica o fim desse elemento. A tag de fechamento é precedida por uma barra (/).
+
+Obs.: Existem algumas tags que não tem uma tag de fechamento, logo não tem corpo, então
+o fechamento está na própria tag, "<nãotemcorpo/>". na maioria da vezes essas tags que não tem fechamento, 
+possuem um atributo com valor boleano, "<nãotemcorpo atributo="valor1 valor2"> ".
+
+Estrutura do html:
+
+1° tag: "<!DOCTYPE HTML>" -> essa é uma tag sem corpo, e é do tipo case insensitive 
+(não importa se foi escrita com letra maiúscula ou minúscula), e ela especifica pro navegador que 
+esse documento é o tipo HTML.
+
+2° tag: "<html lang="pt-br"></html>": é uma tag que em corpo/fechamento, pois todas as outras tags que vem em seguida
+são "filhas" dessa tag, ou seja ficam dentro dela. 
+Obs.: Necessário passar o atributo " lang="pt-br" ", usado para especificar o idioma da página que está sendo programada,
+nesse caso estamos usando "pt-br".
+
+3° tag: "<head></head>": é uma tag que serve para especificar os meta dados/ configurações do que tem no seu html.
+
+4° tag: "<title></title>": obrigatória em todo documento html, mostra o titulo do documento html na guia do navegador.
+
+5° tag: "<meta charset="UTF-8">": tag sem fechamento, especifica a codificação de caractéres que estamos utlizando,
+e nesse código estamos utilizando a codificação UTF-8.
+
+6° tag: "<body></body>": tag que armazena todas as informações que mostrarão tudo que pode ficar visível na página do navegador.
+
+7° tag: "<p></p>": tag para adicionar um parágrafo no código.
